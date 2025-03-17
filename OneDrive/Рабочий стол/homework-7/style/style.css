@@ -1,0 +1,86 @@
+#index {
+    background-color: olivedrab;
+}
+
+#index * {
+    box-sizing: content-box;
+}
+#index .container {    
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border: 5px solid blueviolet;
+    overflow: auto;
+   
+}
+
+#index .header {   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #b7baea;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    padding: 10px;
+    z-index: 1000;
+}
+
+#index .img    {
+    position: static;
+}
+#reset {    background-color: #444bda;
+}
+
+#reset h1{
+    font-size: 55px;
+    font-style: italic;
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+#reset h2{ 
+    font-size: xx-small;
+    margin-top:20px ;
+    margin-bottom: 10px;    
+}
+#reset div{
+    display: block;
+    border: 10px solid red;
+    font-size: larger;
+    display: grid;
+    width: 200px;
+
+}
+#reset .div1{
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 200px;
+}
+#reset .span2{
+    display: inline-block;
+    background-color: pink;
+    padding: 20px;
+    position: absolute;
+    top: 110px;
+}
+#reset .div2{
+    background-color: wheat;
+    padding: 40px;
+    position: fixed;
+    top: 300px;
+    left: 1200px;
+    }
+#reset .div3{   
+    background-color: darkorange;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    display: block;
+}
