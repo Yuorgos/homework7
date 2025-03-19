@@ -1,9 +1,9 @@
-# Homework6
+# Homework8
 
-Таблиця Мондріана на GitHub Pages.
+ДЗ 8.1. Закріплюємо Float Layout
 
 ## Опис
-Таблиця Мондріана
+float та margin
 
 ## Функціональні можливості
 - HTML (TABLE)
